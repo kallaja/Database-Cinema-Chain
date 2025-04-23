@@ -12,69 +12,9 @@ The database was developed using **MariaDB** and exported via **Navicat Premium*
 - Database System: **MariaDB**
 - Export Tool: **Navicat Premium**
 
-## 📑 Database Structure (Key Tables)
+## 📑 Database Diagram
 
-### 🎟️ `bilety` → `tickets`
-Stores individual ticket information.
-
-| Field (PL)      | Field (EN)       |
-|-----------------|------------------|
-| ID              | ID               | 
-| ID_zamowienia   | order_id         |
-| rzad            | row              | 
-| miejsce         | seat             |
-| zeskanowane     | scanned          |
-| ID_znizka       | discount_id      |
-
----
-
-### 🧾 `zamowienia` → `orders`
-Represents customer orders.
-
-| Field (PL)       | Field (EN)     | 
-|------------------|----------------|
-| ID               | ID             | 
-| ID_uzytkownika   | user_id        |
-| data_zamowienia  | order_date     |
-| laczna_kwota     | total_price    |
-
----
-
-### 🏢 `kina` → `cinemas`
-Contains information about each cinema location.
-
-| Field (PL)   | Field (EN)    |
-|--------------|---------------|
-| ID           | ID            | 
-| nazwa        | name          | 
-| miasto       | city          |
-
----
-
-### 🎥 `filmy` → `movies`
-Stores data about available movies.
-
-| Field (PL)   | Field (EN)     |
-|--------------|----------------|
-| ID           | ID             |
-| tytul        | title          |
-| czas_trwania | duration       | 
-| gatunek      | genre          | 
-
----
-
-### ⏰ `seanse` → `screenings`
-Links movies to cinemas and shows the scheduled screenings.
-
-| Field (PL)     | Field (EN)     |
-|----------------|----------------|
-| ID             | ID             | 
-| ID_film        | movie_id       |
-| ID_kino        | cinema_id      | 
-| data_seansu    | screening_date | 
-| sala           | hall           | 
-
----
+![diagram image](assets/cinema_chain_diagram.pdf)
 
 ## 💡 Key Concepts Demonstrated
 
