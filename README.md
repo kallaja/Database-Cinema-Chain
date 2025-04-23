@@ -1,6 +1,6 @@
 # 🎬 Cinema Chain Database Project
 
-This project contains the SQL script for building a relational database designed for managing a cinema chain. The structure was created as part of a university course project and reflects real-world business logic 
+This project contains the SQL script for building a relational database designed for managing a cinema chain. The structure was created as part of a university course project and reflects real-world business logic
 for handling movies, cinemas, tickets, and customer interactions.
 
 ## 🗂️ Overview
@@ -14,7 +14,7 @@ The database was developed using **MariaDB** and exported via **Navicat Premium*
 
 ## 📑 Database Diagram
 
-![diagram image](assets/cinema_chain_diagram.pdf)
+![diagram image](assets/cinema_chain_diagram.png)
 
 ## 💡 Key Concepts Demonstrated
 
@@ -32,6 +32,4 @@ The database was developed using **MariaDB** and exported via **Navicat Premium*
 
 ## 🌍 Language Notes
 
-The table and column names in the SQL script are in **Polish**, but this README provides English translations to make the project understandable.  
-
-
+The table and column names in the SQL script are in **Polish**, but this README provides English translations to make the project understandable.
